@@ -84,13 +84,13 @@
 </nav>
 
 
-<h3 id="deployable-predictors">Deployable Predictors</h3>
+<h2 id="deployable-predictors">Deployable Predictors</h2>
 <p>What does a data scientist <em>produce</em>, exactly?</p>
 <p>The field of data science hasn't coalesced around a single answer yet, but here's what I assert:</p>
 <p><strong>Data scientists produce deployable predictors</strong> that make a business money.</p>
 <p>The "making money" part is self-explanatory, but what is a "deployable predictor"?</p>
 <p>Let's unpack what this means.</p>
-<h4 id="what-is-a-deployable-predictor">What is a deployable predictor?</h4>
+<h3 id="what-is-a-deployable-predictor">What is a deployable predictor?</h3>
 <p>Something deployable is:</p>
 <blockquote>
 <p>Code that satifies quality and monitoring standards for mission-critical software.</p>
@@ -104,11 +104,11 @@
 <p><img src="kermit_predictor.png" width="450"></p>
 <p><strong><em>The predictor is a black box.</em></strong> It's not a coincidence that the predictor in the diagram above is (a dark grey that graphic designers recommend using instead of) black.  Inside the black box might be a neural network, a set of hard coded <code>if/then/else</code> statements, or an army of hyper-intelligent squirrels.  </p>
 <p><strong><em>The black box's contents shouldn't matter</em></strong> to all the other software it interacts with.  We should be able to replace the squirrels with a neural network without modifying any of the predictor's up- or down-stream dependencies. We should be able to deploy updates to the model without also redeploying everything it touches. This seems kind of obvious from a software architecture standpoint, but it's easy to forget.</p>
-<h5 id="simple-to-say-but-hard-to-do">Simple to say, but hard to do</h5>
+<h4 id="simple-to-say-but-hard-to-do">Simple to say, but hard to do</h4>
 <p>It is easy to forget that a predictor should be a black box, because we humans are extremely interested in all the details of how a machine learning algorithm works.</p>
 <p>Software developers' curiousity about the predictor can inadvertantly start to migrate some of its logic to the up- or down-stream applications they maintain.  While subtle, this error can really, <em>really</em> mess things up.</p>
 <p>I have a harrowing tale about making that mistake myself. Maybe I'll write about it here, someday!</p>
-<h4 id="why-does-the-definition-matter">Why does the definition matter?</h4>
+<h3 id="why-does-the-definition-matter">Why does the definition matter?</h3>
 <p>There's still a lot of confusion about what you get for your money when you hire a data scientist.</p>
 <p>While we can, and often do, pinch hit as data engineers, business strategists, data analysts, and reporting dashboard cowboys, we leave a lot of value on the table if that's <em>all</em> we do.</p>
 <p>In my view, data scientists are uniquely equipped not just to make predictions, but to embed predictive capabilities in a company's existing code base. </p>
@@ -235,5 +235,5 @@
 
 <!--
 MkDocs version : 1.1.2
-Build Date UTC : 2020-08-31 16:06:41.409884+00:00
+Build Date UTC : 2020-08-31 16:08:20.476074+00:00
 -->
