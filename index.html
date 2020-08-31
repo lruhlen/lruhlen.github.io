@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Home - L Ruhlen</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="BUSINESS LOBSTERS">
+<meta name="generator" content="mkdocs-1.1.2, mkdocs-gitbook-1.0.7">
+<meta name="author" content="L Ruhlen">
+<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta rel="next" href="" />
+<link href="./css/style.min.css" rel="stylesheet"> 
+</head>
+
+<body>
+<div class="book">
+<div class="book-summary">
+<div id="book-search-input" role="search">
+<input type="text" placeholder="Type to search" />
+</div> <!-- end of book-search-input -->
+
+<nav role="navigation">
+<ul class="summary">
+<li>
+<a href="." target="_blank" class="custom-link">L Ruhlen</a>
+</li>
+<li class="divider"></li>
+<li class="chapter active" data-path="">
+<a href=".">Home</a>
+<li class="chapter" data-path="about/">
+<a href="about/">About</a>
+<li class="divider"></li>
+
+
+
+<li><a href="http://www.mkdocs.org">
+Published with MkDocs
+</a></li>
+
+<li><a href="https://github.com/GitbookIO/theme-default">
+Theme by GitBook
+</a></li>
+</ul>
+
+</nav>
+
+</div> <!-- end of book-summary -->
+
+<div class="book-body">
+<div class="body-inner">
+<div class="book-header" role="navigation">
+
+<!-- Title -->
+<h1>
+<i class="fa fa-circle-o-notch fa-spin"></i>
+<a href="." ></a>
+</h1>
+
+</div> <!-- end of book-header -->
+
+<div class="page-wrapper" tabindex="-1" role="main">
+<div class="page-inner">
+<div id="book-search-results">
+<div class="search-noresults">
+
+<section class="normal markdown-section">
+
+
+
+<h1 id="deployable-predictors">Deployable Predictors</h1>
+<p>What does a data scientist <em>produce</em>, exactly?</p>
+<p>The field of data science hasn't coalesced around a single answer yet, but here's what I assert:</p>
+<p><strong>Data scientists produce deployable predictors</strong> that make a business money.</p>
+<p>The "making money" part is self-explanatory, but what is a "deployable predictor"?</p>
+<p>Let's unpack what this means.</p>
+<h2 id="what-is-a-deployable-predictor">What is a deployable predictor?</h2>
+<p>Something deployable is:</p>
+<blockquote>
+<p>Code that satifies quality and monitoring standards for mission-critical software.</p>
+</blockquote>
+<p>Most software developers are familiar with these processes and standards.  This includes the whole rigamarole of unit test, user acceptance testing, continuous integration, performance monitoring, submitting to the gentle tyranny of PEP 8 standards, and so on.</p>
+<p>A predictor is:</p>
+<blockquote>
+<p>A piece of code that accepts multiple inputs (data), and returns a single prediction.</p>
+</blockquote>
+<p>For example, imagine a predictor that accepts inputs about a Muppet's size, color, texture, and banjo playing skills, and returns a prediction about whether that Muppet is, in fact, Kermit the Frog.</p>
+<p><img src="kermit_predictor.png" width="450"></p>
+<p><strong><em>The predictor is a black box.</em></strong> It's not a coincidence that the predictor in the diagram above is (a dark grey that graphic designers recommend using instead of) black.  Inside the black box might be a neural network, a set of hard coded <code>if/then/else</code> statements, or an army of hyper-intelligent squirrels.  </p>
+<p><strong><em>The black box's contents shouldn't matter</em></strong> to all the other software it interacts with.  We should be able to replace the squirrels with a neural network without modifying any of the predictor's up- or down-stream dependencies. We should be able to deploy updates to the model without also redeploying everything it touches. This seems kind of obvious from a software architecture standpoint, but it's easy to forget.</p>
+<h3 id="simple-to-say-but-hard-to-do">Simple to say, but hard to do</h3>
+<p>It is easy to forget that a predictor should be a black box, because we humans are extremely interested in all the details of how a machine learning algorithm works.</p>
+<p>Software developers' curiousity about the predictor can inadvertantly start to migrate some of its logic to the up- or down-stream applications they maintain.  While subtle, this error can really, <em>really</em> mess things up.</p>
+<p>I have a harrowing tale about making that mistake myself. Maybe I'll write about it here, someday!</p>
+<h2 id="why-does-the-definition-matter">Why does the definition matter?</h2>
+<p>There's still a lot of confusion about what you get for your money when you hire a data scientist.</p>
+<p>While we can, and often do, pinch hit as data engineers, business strategists, data analysts, and reporting dashboard cowboys, we leave a lot of value on the table if that's <em>all</em> we do.</p>
+<p>In my view, data scientists are uniquely equipped not just to make predictions, but to embed predictive capabilities in a company's existing code base. </p>
+<hr />
+<p><em>If you're interested in hiring a data scientist that fits this post's definition of the job, reach out to me at ruhlen (at) gmail (dot) com.</em></p>
+<hr />
+
+
+</section>
+</div> <!-- end of search-noresults -->
+<div class="search-results">
+<div class="has-results">
+
+<h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+<ul class="search-results-list"></ul>
+
+</div> <!-- end of has-results -->
+<div class="no-results">
+
+<h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+
+</div> <!-- end of no-results -->
+</div> <!-- end of search-results -->
+</div> <!-- end of book-search-results -->
+
+</div> <!-- end of page-inner -->
+</div> <!-- end of page-wrapper -->
+
+</div> <!-- end of body-inner -->
+
+</div> <!-- end of book-body -->
+<script src="./js/main.js"></script>
+<script src="search/main.js"></script>
+<script src="./js/gitbook.min.js"></script>
+<script src="./js/theme.min.js"></script>
+</body>
+</html>
